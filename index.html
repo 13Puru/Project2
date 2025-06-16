@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="/assets/css/2nd_part.css" />
   <link rel="stylesheet" href="/assets/css/3rd_part.css" />
   <link rel="stylesheet" href="/assets/css/4th_part.css" />
+  <link rel="stylesheet" href="/assets/css/5th_part.css">
   <link rel="stylesheet" href="/assets/css/footer.css" />
 </head>
 
@@ -645,7 +646,7 @@
         }, 400);
       }
     }, 100);
-      });
+      
   </script>
 
   <!--3rd part-->
@@ -693,10 +694,10 @@
     </div>
   </section>
 
-  <!-- Back to Top Button -->
+  <!-- Back to Top Button
   <button class="back-to-top" onclick="scrollToTop()" title="Back to Top">
     ↑
-  </button>
+  </button> -->
 
   <!-- Bootstrap 5 JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
@@ -793,6 +794,289 @@
                 this.style.backgroundColor = "rgba(255, 255, 255, 0.95)";
             });
         });
+    </script>
+    <!--Archives-->>
+
+    <!--Archives-->>
+    <section class="archives-section">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title">Archives</h2>
+          <p class="section-description">
+            Explore our collection of acheivements, event documents,
+            workshops, and educational resources from our institution.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-category="all">
+            All Documents
+          </button>
+          <button class="filter-btn" data-category="papers">
+            Recent Achievements
+          </button>
+          <button class="filter-btn" data-category="thesis">
+            Events & Workshops
+          </button>
+          <button class="filter-btn" data-category="reports">Reports</button>
+          <button class="filter-btn" data-category="books">E-Books</button>
+        </div>
+
+        <!-- Archives Grid -->
+        <div class="archives-grid">
+          <!-- Archive Card 1 -->
+          <div class="archive-card category-papers" data-category="papers">
+            <div class="archive-icon">
+              <i class="fas fa-file-alt"></i>
+            </div>
+            <h4 class="archive-title">
+              Impact of Digital Learning on Student Performance
+            </h4>
+            <div class="archive-meta">
+              <span><i class="fas fa-calendar"></i> 2023</span>
+              <span><i class="fas fa-user"></i> Dr. Smith</span>
+            </div>
+            <p class="archive-description">
+              A comprehensive study analyzing the effects of digital learning
+              platforms on academic performance.
+            </p>
+            <div class="archive-tags">
+              <span class="archive-tag">Education</span>
+              <span class="archive-tag">Technology</span>
+            </div>
+            <div class="archive-actions">
+              <a href="#" class="action-btn btn-primary">
+                <i class="fas fa-eye"></i> View
+              </a>
+              <a href="#" class="action-btn btn-secondary">
+                <i class="fas fa-download"></i> Download
+              </a>
+              <span class="download-count">
+                <i class="fas fa-download"></i> 342
+              </span>
+            </div>
+          </div>
+
+          <!-- Archive Card 2 -->
+          <div class="archive-card category-thesis" data-category="thesis">
+            <div class="archive-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h4 class="archive-title">
+              Machine Learning Applications in Healthcare
+            </h4>
+            <div class="archive-meta">
+              <span><i class="fas fa-calendar"></i> 2023</span>
+              <span><i class="fas fa-user"></i> John Doe</span>
+            </div>
+            <p class="archive-description">
+              PhD thesis exploring machine learning algorithms in modern
+              healthcare systems.
+            </p>
+            <div class="archive-tags">
+              <span class="archive-tag">AI/ML</span>
+              <span class="archive-tag">Healthcare</span>
+            </div>
+            <div class="archive-actions">
+              <a href="#" class="action-btn btn-primary">
+                <i class="fas fa-eye"></i> View
+              </a>
+              <a href="#" class="action-btn btn-secondary">
+                <i class="fas fa-download"></i> Download
+              </a>
+              <span class="download-count">
+                <i class="fas fa-download"></i> 256
+              </span>
+            </div>
+          </div>
+
+          <!-- Archive Card 3 -->
+          <div class="archive-card category-reports" data-category="reports">
+            <div class="archive-icon">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <h4 class="archive-title">
+              Annual Academic Performance Report 2023
+            </h4>
+            <div class="archive-meta">
+              <span><i class="fas fa-calendar"></i> 2023</span>
+              <span><i class="fas fa-building"></i> Institution</span>
+            </div>
+            <p class="archive-description">
+              Comprehensive analysis of academic achievements and student
+              performance metrics.
+            </p>
+            <div class="archive-tags">
+              <span class="archive-tag">Analytics</span>
+              <span class="archive-tag">Performance</span>
+            </div>
+            <div class="archive-actions">
+              <a href="#" class="action-btn btn-primary">
+                <i class="fas fa-eye"></i> View
+              </a>
+              <a href="#" class="action-btn btn-secondary">
+                <i class="fas fa-download"></i> Download
+              </a>
+              <span class="download-count">
+                <i class="fas fa-download"></i> 189
+              </span>
+            </div>
+          </div>
+
+          <!-- Archive Card 4 -->
+          <div class="archive-card category-books" data-category="books">
+            <div class="archive-icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <h4 class="archive-title">Advanced Mathematics for Engineers</h4>
+            <div class="archive-meta">
+              <span><i class="fas fa-calendar"></i> 2022</span>
+              <span><i class="fas fa-user"></i> Prof. Johnson</span>
+            </div>
+            <p class="archive-description">
+              Complete textbook covering advanced mathematical concepts for
+              engineering students.
+            </p>
+            <div class="archive-tags">
+              <span class="archive-tag">Mathematics</span>
+              <span class="archive-tag">Engineering</span>
+            </div>
+            <div class="archive-actions">
+              <a href="#" class="action-btn btn-primary">
+                <i class="fas fa-eye"></i> View
+              </a>
+              <a href="#" class="action-btn btn-secondary">
+                <i class="fas fa-download"></i> Download
+              </a>
+              <span class="download-count">
+                <i class="fas fa-download"></i> 567
+              </span>
+            </div>
+          </div>
+
+          <!-- Hidden Archives -->
+          <div
+            class="archive-card category-papers hidden-archives"
+            data-category="papers"
+          >
+            <div class="archive-icon">
+              <i class="fas fa-file-alt"></i>
+            </div>
+            <h4 class="archive-title">
+              Climate Change and Environmental Policy
+            </h4>
+            <div class="archive-meta">
+              <span><i class="fas fa-calendar"></i> 2023</span>
+              <span><i class="fas fa-user"></i> Dr. Green</span>
+            </div>
+            <p class="archive-description">
+              Research examining the relationship between climate change and
+              environmental policies.
+            </p>
+            <div class="archive-tags">
+              <span class="archive-tag">Environment</span>
+              <span class="archive-tag">Policy</span>
+            </div>
+            <div class="archive-actions">
+              <a href="#" class="action-btn btn-primary">
+                <i class="fas fa-eye"></i> View
+              </a>
+              <a href="#" class="action-btn btn-secondary">
+                <i class="fas fa-download"></i> Download
+              </a>
+              <span class="download-count">
+                <i class="fas fa-download"></i> 423
+              </span>
+            </div>
+          </div>
+
+          <div
+            class="archive-card category-thesis hidden-archives"
+            data-category="thesis"
+          >
+            <div class="archive-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h4 class="archive-title">
+              Blockchain Technology in Financial Systems
+            </h4>
+            <div class="archive-meta">
+              <span><i class="fas fa-calendar"></i> 2022</span>
+              <span><i class="fas fa-user"></i> Sarah Wilson</span>
+            </div>
+            <p class="archive-description">
+              Master's thesis investigating blockchain integration in modern
+              financial systems.
+            </p>
+            <div class="archive-tags">
+              <span class="archive-tag">Blockchain</span>
+              <span class="archive-tag">Finance</span>
+            </div>
+            <div class="archive-actions">
+              <a href="#" class="action-btn btn-primary">
+                <i class="fas fa-eye"></i> View
+              </a>
+              <a href="#" class="action-btn btn-secondary">
+                <i class="fas fa-download"></i> Download
+              </a>
+              <span class="download-count">
+                <i class="fas fa-download"></i> 312
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <button class="view-more-btn" id="viewMoreBtn">
+          View More Archives
+        </button>
+      </div>
+    </section>
+
+    <script>
+      const filterBtns = document.querySelectorAll(".filter-btn");
+  const archiveCards = document.querySelectorAll(".archive-card");
+
+  filterBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      // Remove active class from all buttons
+      filterBtns.forEach((b) => b.classList.remove("active"));
+      // Add active class to clicked button
+      btn.classList.add("active");
+
+      const category = btn.getAttribute("data-category");
+
+      archiveCards.forEach((card) => {
+        if (category === "all" || card.getAttribute("data-category") === category) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    });
+  });
+
+  // Archives View More functionality
+  const viewMoreArchivesBtn = document.getElementById("viewMoreBtn");
+  const hiddenArchives = document.querySelectorAll(".hidden-archives");
+
+  if (viewMoreArchivesBtn) {
+    viewMoreArchivesBtn.addEventListener("click", () => {
+      const currentlyExpanded = hiddenArchives[0]?.classList.contains("show");
+
+      hiddenArchives.forEach((archive) => {
+        if (currentlyExpanded) {
+          archive.classList.remove("show");
+        } else {
+          archive.classList.add("show");
+        }
+      });
+
+      viewMoreArchivesBtn.textContent = currentlyExpanded
+        ? "View More Archives"
+        : "View Less";
+    });
+  }
     </script>
 
   <!--Footer -->
@@ -924,6 +1208,8 @@
         alert("Feedback form would open here");
       });
   </script>
+
+  
 </body>
 
 </html>
