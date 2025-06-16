@@ -1,13 +1,12 @@
-/*4th part*/
-        .faq-section {
+.faq-section {
             padding: 100px 0;
-            background-color: #ffffff;
+            background: linear-gradient(135deg, #b1e7ac 0%, #08b33b 100%);
             position: relative;
             overflow: hidden;
         }
         
         .section-label {
-            color: #4a90e2;
+            color: #ffffff;
             font-size: 14px;
             font-weight: 600;
             text-transform: uppercase;
@@ -18,36 +17,38 @@
         .main-heading {
             font-size: 3rem;
             font-weight: 700;
-            color: #2c3e50;
+            color: #ffffff;
             line-height: 1.2;
             margin-bottom: 35px;
         }
         
         .intro-text {
-            color: #7f8c8d;
+            color: #ffffff;
             line-height: 1.8;
             font-size: 16px;
             margin-bottom: 50px;
             max-width: 90%;
+            opacity: 0.9;
         }
         
         .faq-item {
-            background: #f8f9fa;
+            background: rgba(255, 255, 255, 0.95);
             border-radius: 12px;
             padding: 25px;
             margin-bottom: 20px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
             position: relative;
         }
         
         .faq-item:hover {
             transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+            background: #ffffff;
         }
         
         .faq-question {
-            color: #4a90e2;
+            color: #08b33b;
             font-size: 18px;
             font-weight: 600;
             margin-bottom: 15px;
@@ -56,7 +57,7 @@
         }
         
         .faq-icon {
-            background: #4a90e2;
+            background: #08b33b;
             color: white;
             width: 30px;
             height: 30px;
@@ -76,102 +77,19 @@
             margin-left: 45px;
         }
         
-        .mockup-container {
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 500px;
-        }
-        
-        .circle-decoration {
-            position: absolute;
-            width: 350px;
-            height: 350px;
-            border: 2px solid #e9ecef;
-            border-radius: 50%;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        .laptop-mockup {
-            position: relative;
-            z-index: 3;
-            max-width: 200px;
-            transform: rotate(-10deg);
-        }
-        
-        .phone-mockup {
-            position: absolute;
-            z-index: 4;
-            max-width: 120px;
-            top: 20%;
-            right: 20%;
-            transform: rotate(5deg);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        .academy-image {
             border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
         }
         
-        .tablet-mockup {
-            position: absolute;
-            z-index: 2;
-            max-width: 160px;
-            bottom: 10%;
-            left: 10%;
-            transform: rotate(-5deg);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-            border-radius: 10px;
-        }
-        
-        .background-woman {
-            position: absolute;
-            top: -20px;
-            right: -50px;
-            opacity: 0.3;
-            z-index: 1;
-            max-width: 300px;
-        }
-        
-        .back-to-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            background-color: #4a90e2;
-            color: white;
-            border: none;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            font-size: 20px;
-            cursor: pointer;
-            box-shadow: 0 4px 15px rgba(74,144,226,0.3);
-            transition: all 0.3s ease;
-            z-index: 1000;
-        }
-        
-        .back-to-top:hover {
-            background-color: #357abd;
-            transform: translateY(-2px);
+        .academy-image:hover {
+            transform: scale(1.05);
         }
         
         @media (max-width: 992px) {
             .main-heading {
                 font-size: 2.5rem;
-            }
-            
-            .mockup-container {
-                height: 400px;
-                margin-top: 50px;
-            }
-            
-            .circle-decoration {
-                width: 280px;
-                height: 280px;
-            }
-            
-            .background-woman {
-                display: none;
             }
         }
         
@@ -190,21 +108,5 @@
             
             .faq-answer {
                 font-size: 14px;
-            }
-            
-            .mockup-container {
-                height: 300px;
-            }
-            
-            .laptop-mockup {
-                max-width: 150px;
-            }
-            
-            .phone-mockup {
-                max-width: 90px;
-            }
-            
-            .tablet-mockup {
-                max-width: 120px;
             }
         }

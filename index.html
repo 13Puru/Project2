@@ -152,167 +152,201 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="hero-section">
-    <div class="office-scene">
-      <div class="flags"></div>
+  <section id="home" class="hero-carousel">
+        <div id="biotechCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#biotechCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#biotechCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#biotechCarousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#biotechCarousel" data-bs-slide-to="3"></button>
+            </div>
 
-      <div class="wall-elements">
-        <div class="portrait"></div>
-        <div class="emblem"></div>
-        <div class="portrait"></div>
-      </div>
+            <!-- Slides -->
+            <div class="carousel-inner">
+                <!-- Slide 1: Welcome -->
+                <div class="carousel-item active slide-1">
+                    <div class="carousel-overlay">
+                        <div class="carousel-content">
+                            <h1 class="carousel-title">Welcome to Ajmal EDU Care</h1>
+                            <p class="carousel-subtitle">Pioneering Innovation in Life</p>
+                            <p class="carousel-description">
+                                Discover cutting-edge research in molecular biology, genetic engineering, and bioinformatics. 
+                                Our department leads breakthrough discoveries that shape the future of healthcare and sustainable technology.
+                            </p>
+                            <a href="#about" class="btn-explore">
+                                <i class="fas fa-microscope me-2"></i>Explore Our Research
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-      <div class="official-figure animate-fade-in"></div>
-      <div class="desk-area"></div>
+                <!-- Slide 2: Research Excellence -->
+                <div class="carousel-item slide-2">
+                    <div class="carousel-overlay">
+                        <div class="carousel-content">
+                            <h1 class="carousel-title">Research Excellence</h1>
+                            <p class="carousel-subtitle">Advanced Facilities</p>
+                            <p class="carousel-description">
+                                State-of-the-art laboratories equipped with CRISPR technology, protein crystallography, 
+                                and next-generation sequencing platforms. Our research spans from basic cellular mechanisms 
+                                to applied biotechnology solutions.
+                            </p>
+                            <a href="#research" class="btn-explore">
+                                <i class="fas fa-flask me-2"></i>View Research Projects
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-      <button class="navigation-arrows nav-left" onclick="slideLeft()">
-        <i class="fas fa-chevron-left"></i>
-      </button>
-      <button class="navigation-arrows nav-right" onclick="slideRight()">
-        <i class="fas fa-chevron-right"></i>
-      </button>
+                <!-- Slide 3: Medical Biotechnology -->
+                <div class="carousel-item slide-3">
+                    <div class="carousel-overlay">
+                        <div class="carousel-content">
+                            <h1 class="carousel-title">Ajmal Advanced Solutions</h1>
+                            <p class="carousel-subtitle">Advancing Solutions</p>
+                            <p class="carousel-description">
+                                Developing novel therapeutic approaches including gene therapy, immunotherapy, 
+                                and personalized medicine. Our translational research bridges the gap between 
+                                laboratory discoveries and clinical applications.
+                            </p>
+                            <a href="#programs" class="btn-explore">
+                                <i class="fas fa-heartbeat me-2"></i>Advancing Programs
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4: Bioinformatics & Computational Biology -->
+                <div class="carousel-item slide-4">
+                    <div class="carousel-overlay">
+                        <div class="carousel-content">
+                            <h1 class="carousel-title">Computational Solutions</h1>
+                            <p class="carousel-subtitle">Data-Driven Insights</p>
+                            <p class="carousel-description">
+                                Leveraging artificial intelligence and machine learning to analyze complex biological data. 
+                                Our bioinformatics platform processes genomic, proteomic, and metabolomic datasets 
+                                to accelerate scientific discovery.
+                            </p>
+                            <a href="#faculty" class="btn-explore">
+                                <i class="fas fa-computer me-2"></i>Meet Our Team
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#biotechCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#biotechCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Social Media Sidebar -->
+    <div class="social-media">
+        <a href="#" class="social-btn facebook" title="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="social-btn twitter" title="Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="social-btn youtube" title="YouTube">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="#" class="social-btn instagram" title="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="social-btn whatsapp" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
     </div>
-  </section>
 
-  <!-- Social Media Sidebar -->
-  <div class="social-media">
-    <a href="#" class="social-btn facebook"><i class="fab fa-facebook-f"></i></a>
-    <a href="#" class="social-btn twitter"><i class="fab fa-twitter"></i></a>
-    <a href="#" class="social-btn youtube"><i class="fab fa-youtube"></i></a>
-    <a href="#" class="social-btn instagram"><i class="fab fa-instagram"></i></a>
-    <a href="#" class="social-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
-  </div>
+    <!-- Additional Content Sections -->
+    <!-- <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2>About Our Department</h2>
+                    <p class="lead">
+                        The Department of Biotechnology is at the forefront of scientific innovation, 
+                        combining traditional biological sciences with cutting-edge technology to address 
+                        global challenges in health, agriculture, and environmental sustainability.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const navHeight = document.querySelector('.navbar').offsetHeight;
+                    const targetPosition = target.offsetTop - navHeight;
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
 
-  <script>
-    // Smooth scrolling for navigation links
-    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-      anchor.addEventListener("click", function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute("href"));
-        if (target) {
-          target.scrollIntoView({
-            behavior: "smooth",
-            block: "start",
-          });
-        }
-      });
-    });
-
-    // Hero section slideshow functionality
-    let currentSlide = 0;
-    const slides = [
-      {
-        background: "linear-gradient(135deg, #f5f5dc 0%, #deb887 100%)",
-        title: "Welcome to Department of Biotechnology",
-      },
-      {
-        background: "linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%)",
-        title: "Innovation in Biotechnology",
-      },
-      {
-        background: "linear-gradient(135deg, #fff3e0 0%, #ffcc80 100%)",
-        title: "Research Excellence",
-      },
-    ];
-
-    function slideLeft() {
-      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-      updateSlide();
-    }
-
-    function slideRight() {
-      currentSlide = (currentSlide + 1) % slides.length;
-      updateSlide();
-    }
-
-    function updateSlide() {
-      const officeScene = document.querySelector(".office-scene");
-      officeScene.style.background = slides[currentSlide].background;
-
-      // Add slide transition effect
-      officeScene.style.opacity = "0.7";
-      setTimeout(() => {
-        officeScene.style.opacity = "1";
-      }, 300);
-    }
-
-    // Auto-advance slides
-    setInterval(slideRight, 5000);
-
-    // Navbar background change on scroll
-    window.addEventListener("scroll", function () {
-      const navbar = document.querySelector(".main-nav");
-      if (window.scrollY > 50) {
-        navbar.style.background =
-          "linear-gradient(135deg, #1a3a0f 0%, #2d5016 100%)";
-      } else {
-        navbar.style.background =
-          "linear-gradient(135deg, var(--govt-green) 0%, var(--light-green) 100%)";
-      }
-    });
-
-    // Add hover effects to social media buttons
-    document.querySelectorAll(".social-btn").forEach((btn) => {
-      btn.addEventListener("mouseenter", function () {
-        this.style.transform = "translateX(-10px) scale(1.1)";
-      });
-
-      btn.addEventListener("mouseleave", function () {
-        this.style.transform = "translateX(0) scale(1)";
-      });
-    });
-
-    // Mobile menu enhancement
-    const navbarToggler = document.querySelector(".navbar-toggler");
-    const navbarCollapse = document.querySelector(".navbar-collapse");
-
-    navbarToggler.addEventListener("click", function () {
-      if (navbarCollapse.classList.contains("show")) {
-        navbarCollapse.style.animation = "slideUp 0.3s ease-out";
-      } else {
-        navbarCollapse.style.animation = "slideDown 0.3s ease-out";
-      }
-    });
-
-    // Add CSS animations dynamically
-    const style = document.createElement("style");
-    style.textContent = `
-            @keyframes slideDown {
-                from { opacity: 0; transform: translateY(-10px); }
-                to { opacity: 1; transform: translateY(0); }
+        // Navbar background change on scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.main-nav');
+            if (window.scrollY > 50) {
+                navbar.style.background = 'linear-gradient(135deg, #0f5132 0%, #198754 100%)';
+            } else {
+                navbar.style.background = 'linear-gradient(135deg, var(--govt-green) 0%, var(--light-green) 100%)';
             }
-            
-            @keyframes slideUp {
-                from { opacity: 1; transform: translateY(0); }
-                to { opacity: 0; transform: translateY(-10px); }
-            }
-            
-            .hero-section {
-                animation: heroFadeIn 1.5s ease-out;
-            }
-            
-            @keyframes heroFadeIn {
-                from { opacity: 0; transform: scale(0.95); }
-                to { opacity: 1; transform: scale(1); }
-            }
-        `;
-    document.head.appendChild(style);
+        });
 
-    // Initialize page
-    document.addEventListener("DOMContentLoaded", function () {
-      // Add loading effect
-      document.body.style.opacity = "0";
-      setTimeout(() => {
-        document.body.style.transition = "opacity 0.5s ease-in";
-        document.body.style.opacity = "1";
-      }, 100);
-    });
-  </script>
+        // Enhanced social media hover effects
+        document.querySelectorAll('.social-btn').forEach(btn => {
+            btn.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateX(-10px) scale(1.1)';
+            });
 
+            btn.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateX(0) scale(1)';
+            });
+        });
+
+        // Initialize carousel with custom options
+        const carousel = new bootstrap.Carousel('#biotechCarousel', {
+            interval: 5000,
+            wrap: true,
+            touch: true
+        });
+
+        // Pause carousel on hover
+        document.querySelector('#biotechCarousel').addEventListener('mouseenter', () => {
+            carousel.pause();
+        });
+
+        document.querySelector('#biotechCarousel').addEventListener('mouseleave', () => {
+            carousel.cycle();
+        });
+
+        // Add loading animation
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.style.opacity = '0';
+            setTimeout(() => {
+                document.body.style.transition = 'opacity 0.5s ease-in';
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+    </script>
   <!--2nd part-->
 
   <section class="solutions-section">
@@ -384,7 +418,7 @@
                 <h5 class="profile-name">Dr. Badaruddin Ajmal</h5>
                 <p class="profile-title">President</p>
                 <p class="profile-organization">AJMAL Foundation</p>
-                
+
               </div>
             </div>
           </div>
@@ -398,7 +432,7 @@
                 <h5 class="profile-name">Abdur Rehman Ajmal </h5>
                 <p class="profile-title">Director</p>
                 <p class="profile-organization">Ajmal EDU Care</p>
-                
+
               </div>
             </div>
           </div>
@@ -406,7 +440,7 @@
       </div>
 
 
-      
+
       <br />
       <hr />
       <br />
@@ -621,9 +655,9 @@
       <div class="row align-items-center">
         <!-- Text Content Column -->
         <div class="col-lg-6 col-md-12 text-content">
-          <div class="section-label">ABOUT US</div>
+          <div class="section-label" style="color: #08b33b">ABOUT US</div>
 
-          <h1 class="main-heading">
+          <h1 class="main-heading" style="color: #08b33b">
             About Ajmal Super 40
           </h1>
 
@@ -695,94 +729,71 @@
   <!--4th part-->
 
   <section class="faq-section">
-    <div class="container">
-      <div class="row">
-        <!-- Text Content Column -->
-        <div class="col-lg-6 col-md-12">
-          <div class="section-label">SOME FAQ'S</div>
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Image Column - Left Side -->
+                <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">
+                    <div class="text-center">
+                        <img src="/assets/img/IAS academy.jpeg" class="img-fluid academy-image" alt="Ajmal IAS Academy">
+                    </div>
+                </div>
 
-          <h1 class="main-heading">Ajmal IAS Academy</h1>
+                <!-- Text Content Column - Right Side -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="section-label">SOME FAQ'S</div>
 
-          <p class="intro-text">
-            It is a long established fact that a reader will be distracted
-            booty the end gap designa readable content of a page when looking
-          </p>
+                    <h1 class="main-heading">Ajmal IAS Academy</h1>
 
-          <div class="faq-item">
-            <div class="faq-question">
-              <div class="faq-icon">?</div>
-              How much does it cost to work with your agency?
-            </div>
-            <div class="faq-answer">
-              Many desktop publishing packages and web page editors now use
-              Lorem Ipsum as their default model text, search for 'lorem
-              ipsum' will uncover
-            </div>
-          </div>
+                    <p class="intro-text">
+                        It is a long established fact that a reader will be distracted
+                        by the readable content of a page when looking at its layout.
+                    </p>
 
-          <div class="faq-item">
-            <div class="faq-question">
-              <div class="faq-icon">?</div>
-              How long does it take for you to complete a project?
-            </div>
-            <div class="faq-answer">
-              Project timelines vary depending on complexity and scope.
-              Typically, small projects take 2-4 weeks, medium projects 4-8
-              weeks, and large-scale projects 8-16 weeks to complete.
-            </div>
-          </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <div class="faq-icon">?</div>
+                            How much does it cost to work with your academy?
+                        </div>
+                        <div class="faq-answer">
+                            Many desktop publishing packages and web page editors now use
+                            Lorem Ipsum as their default model text, search for 'lorem
+                            ipsum' will uncover various courses and pricing options.
+                        </div>
+                    </div>
 
-          <div class="faq-item">
-            <div class="faq-question">
-              <div class="faq-icon">?</div>
-              What services do you provide for digital transformation?
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <div class="faq-icon">?</div>
+                            How long does it take to prepare for IAS exam?
+                        </div>
+                        <div class="faq-answer">
+                            Preparation timelines vary depending on your background and dedication.
+                            Typically, focused preparation takes 12-18 months for beginners,
+                            and 6-12 months for experienced candidates.
+                        </div>
+                    </div>
+
+                    
+                </div>
             </div>
-            <div class="faq-answer">
-              We offer comprehensive digital solutions including web
-              development, mobile applications, UI/UX design, digital
-              marketing, and cloud infrastructure setup.
-            </div>
-          </div>
         </div>
+    </section>
 
-        <!-- Mockup Visual Column -->
-        <div class="col-lg-6 col-md-12">
-          <img src="/assets/img/IAS academy.jpeg" width="700">
-        </div>
-      </div>
-    </div>
-  </section>
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // FAQ item interactions
+        document.querySelectorAll(".faq-item").forEach((item) => {
+            item.addEventListener("mouseenter", function () {
+                this.style.backgroundColor = "rgba(255, 255, 255, 1)";
+            });
 
-  <!-- Bootstrap 5 JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-
-  <script>
-    // Show/hide back to top button based on scroll position
-    window.addEventListener("scroll", function () {
-      const backToTopBtn = document.querySelector(".back-to-top");
-      if (window.pageYOffset > 300) {
-        backToTopBtn.style.display = "block";
-      } else {
-        backToTopBtn.style.display = "none";
-      }
-    });
-
-    // Initially hide the button
-    document.addEventListener("DOMContentLoaded", function () {
-      document.querySelector(".back-to-top").style.display = "none";
-    });
-
-    // FAQ item interactions
-    document.querySelectorAll(".faq-item").forEach((item) => {
-      item.addEventListener("mouseenter", function () {
-        this.style.backgroundColor = "#e3f2fd";
-      });
-
-      item.addEventListener("mouseleave", function () {
-        this.style.backgroundColor = "#f8f9fa";
-      });
-    });
-  </script>
+            item.addEventListener("mouseleave", function () {
+                this.style.backgroundColor = "rgba(255, 255, 255, 0.95)";
+            });
+        });
+    </script>
 
   <!--Footer -->
 
