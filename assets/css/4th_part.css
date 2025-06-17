@@ -1,6 +1,8 @@
 .faq-section {
             padding: 100px 0;
-            background: linear-gradient(135deg, #ffffff 0%, #006e21 100%);
+            background: url('/assets/img/rm222batch5-kul-21.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
             position: relative;
             overflow: hidden;
         }
