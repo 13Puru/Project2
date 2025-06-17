@@ -1,7 +1,9 @@
 /* 3rd part*/
          .about-section {
             padding: 80px 0;
-            background:  linear-gradient(135deg, #f4f7ff 0%, #fbefef 100%);;
+            background:  url('https://png.pngtree.com/thumb_back/fh260/background/20230203/pngtree-green-background-high-res-wallpaper-free-image_1541002.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
             min-height: 100vh;
             display: flex;
             align-items: center;
